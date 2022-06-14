@@ -12,6 +12,12 @@ export const initialState = {
     Progress: [],
     Done: [],
   },
+
+  pageInfo: {
+    page: [],
+  },
+
+  wirteMod: false,
 };
 
 /*
