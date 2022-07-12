@@ -2,6 +2,7 @@
 -- create database studylog;
 -- mysql -u root -p < ./server/db/studylog.sql -Dstudylog;
 -- mysql -u root -p < server/db/seed.sql -Dstudylog;
+
 INSERT INTO
     `users` (
         `userId`,
@@ -100,12 +101,12 @@ VALUES
 INSERT INTO
     `todos` (`userId`, `type`, `content`)
 VALUES
-
+    (1, "Todo", "자바스크립트 챕처 1 공부")
     (4, "Progress", "MySQL 챕처 1 공부"),
     (2, "Done", "타입스크립트 챕처 1 공부"),
     (3, "Todo", "리엑트 챕처 1 공부"),
     (5, "Progress", "리덕스 챕처 1 공부"),
- 
+    (1, "Todo", "자바스크립트 챕처 2 공부")    
     (4, "Todo", "MySQL 챕처 4 공부"),
     (4, "Progress", "Socket.IO 챕처 1 공부"),
     (2, "Done", "타입스크립트 챕처 3 공부"),
